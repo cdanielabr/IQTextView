@@ -5,7 +5,7 @@ import PackageDescription
 let package = Package(
     name: "IQTextView",
     platforms: [
-        .iOS(.v13)
+        .iOS(.v15)
     ],
     products: [
         .library(
@@ -14,7 +14,7 @@ let package = Package(
         )
     ],
     dependencies: [
-        .package(url: "https://github.com/hackiftekhar/IQKeyboardToolbar.git", from: "1.1.4"),
+        .package(url: "https://github.com/cdanielabr/IQKeyboardToolbar.git", from: "main"),
     ],
     targets: [
         .target(name: "IQTextView",
